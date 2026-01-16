@@ -48,4 +48,7 @@ tqdm>=4.60.0
 
 ### Basic Execution
 
+python data/data.py
 python main.py
+python clef.py (for clef algorithm)
+python dam.py (for damex algorithm)

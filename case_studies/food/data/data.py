@@ -36,7 +36,7 @@ print(f"Colonnes finales: {list(df.columns)}")
 print(df.shape)
 
 # 2. Sauvegarder en CSV
-csv_filename = "nhanes_dr1tot.csv"
+csv_filename = "data/nhanes_dr1tot.csv"
 df.to_csv(csv_filename, index=False)
 print(f"Données sauvegardées dans : {csv_filename}")
 print(f"Taille du fichier : {df.shape}")
