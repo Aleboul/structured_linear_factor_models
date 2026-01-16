@@ -37,7 +37,7 @@ X_extreme = X_ranked[extreme_mask]
 # ----------------------
 # Step 4: Apply DAMEX
 # ----------------------
-damex = mlx.damex(epsilon=0.2)
+damex = mlx.damex(epsilon=0.4)
 damex.fit(X_extreme)
 
 # ----------------------
